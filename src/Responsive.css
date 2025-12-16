@@ -1,0 +1,296 @@
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+  .res-height {
+    display: none !important;
+  }
+
+  .res-show {
+    display: block !important;
+  }
+
+  header {
+    padding: 15px 0px;
+    height: auto;
+  }
+  header .part-1,
+  header .part-3 {
+    padding: 0px !important;
+  }
+
+  header .part-1 {
+    max-width: 30% !important;
+    flex: 0 0 30% !important;
+  }
+
+  header img.logo {
+    width: 150px !important;
+  }
+
+  header .part-2 {
+    padding-left: unset !important;
+  }
+
+  header .part-3 {
+    max-width: 60% !important;
+    flex: 0 0 60% !important;
+  }
+
+  .main .sideBarWrapper {
+    width: 80% !important;
+    height: 100vh !important;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    z-index: 1000;
+    opacity: 0;
+    transition: all 0.4s ease-in-out !important;
+  }
+
+  .main .sideBarWrapper .sidebar {
+    width: 100% !important;
+    position: relative !important;
+    top: 0px !important;
+    max-height: inherit !important;
+  }
+
+  .main .content {
+    width: 100%;
+    flex: 0 0 100% !important;
+  }
+
+  .right-content {
+    padding: 90px 10px !important;
+  }
+
+  .dashBoardWrapper {
+    white-space: nowrap !important;
+    overflow-x: scroll;
+    overflow-y: hidden !important;
+    display: block !important;
+    margin: 70px 0px 15px 0px !important;
+  }
+
+  .dashBoardWrapper::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .toppart2 {
+    padding-left: 15px !important;
+  }
+
+  .dashBoardWrapper .dashBoardBox {
+    display: inline-block !important;
+    width: 260px !important;
+    height: 160px !important;
+    margin-right: 15px !important;
+  }
+  .TableFooter {
+    flex-direction: column !important;
+  }
+
+  .TableFooter nav {
+    margin-top: 25px;
+  }
+
+  .TableFooter nav ul {
+    white-space: nowrap !important;
+    overflow-x: scroll;
+    overflow-y: hidden !important;
+    display: block !important;
+    margin: 70px 0px 15px 0px !important;
+  }
+
+  .TableFooter nav ul li {
+    display: inline-block !important;
+    width: max-content !important;
+    height: auto !important;
+  }
+
+  .sideBarOverlay {
+    position: fixed !important;
+    left: 0px !important;
+    top: 0px !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    z-index: 1000;
+    width: 100%;
+    height: 100% !important;
+    z-index: 1000;
+  }
+
+  .sideBarOverlay.show {
+    display: block !important;
+  }
+
+  .card.shadow.border-0.w-100.flex-row {
+    margin-top: 0px !important;
+  }
+  .card.shadow.border-0.p-3.mt-4 {
+    margin-top: 24px !important;
+  }
+
+  .res-col {
+    flex-direction: column !important;
+  }
+
+  .MuiBreadcrumbs-root {
+    margin-top: 15px !important;
+  }
+
+  .productinfo .col-sm-3 {
+    max-width: 200px !important;
+    flex: 0 0 200px !important;
+  }
+
+  .productinfo .col-sm-9 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-left: 36px !important;
+  }
+
+  .form .col {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  .loginSection {
+    display: flex !important;
+  }
+
+  .loginSection.signupSection {
+    display: unset !important;
+  }
+
+  .signupSection .col-md-8 {
+    display: none !important;
+  }
+
+  /* heder */
+
+  header {
+    height: auto;
+    padding: 12px 0;
+  }
+
+  header img.logo {
+    width: 140px;
+  }
+
+  /* SEARCH BOX */
+  .searchbox {
+    width: 220px;
+    height: 36px;
+  }
+
+  .part-2 {
+    padding-left: 15px;
+  }
+
+  /* USER NAME HIDE */
+  .MyAccount .userInfo {
+    display: none;
+  }
+
+  /* BUTTONS SPACING */
+  .part-3 {
+    gap: 10px;
+  }
+
+  header button.rounded_circle {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  /* NOTIFICATION MENU */
+  #notifications .MuiPaper-elevation {
+    right: 30px !important;
+    width: 280px !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  header .row {
+    margin: auto !important;
+  }
+
+  header button.rounded_circle {
+    width: 35px !important;
+    height: 35px !important;
+    margin-right: 8px !important;
+    min-width: 35px !important;
+  }
+  header .btn-blue {
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+  }
+
+  .userImg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .myAccountWrapper button {
+    padding: 0px !important;
+    min-width: 35px !important;
+    width: 35px !important;
+  }
+  .loginSection {
+    display: flex !important;
+  }
+
+  /* header */
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  /* LOGO */
+  header img.logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .part-1 {
+    text-align: center;
+  }
+
+  /* HIDE SEARCH + MENU SECTION */
+  .part-2 {
+    display: none !important;
+  }
+
+  /* RIGHT BUTTONS */
+  .part-3 {
+    justify-content: center !important;
+    gap: 8px;
+  }
+
+  header button.rounded_circle {
+    width: 35px !important;
+    height: 35px !important;
+    min-width: 35px !important;
+  }
+
+  /* HIDE USER NAME */
+  .MyAccount .userInfo {
+    display: none;
+  }
+
+  /* NOTIFICATION DROPDOWN FIX */
+  #notifications .MuiPaper-elevation {
+    right: 10px !important;
+    width: 95% !important;
+    top: 70px !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .form .col {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  .loginSection {
+    display: flex !important;
+  }
+}
