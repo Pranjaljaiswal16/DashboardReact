@@ -1294,11 +1294,11 @@ body.dark .css-1toxriw-MuiList-root-MuiMenu-list {
   background: #2b3c5f !important;
 }
 
-body.dark .css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+/* body.dark .css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
   background: #2b3c5f !important;
   color: rgba(255, 255, 255, 0.7) !important;
   border-radius: 10px !important;
-}
+} */
 
 body.light .css-1ckov0h-MuiSvgIcon-root {
   font-size: 28px !important;
