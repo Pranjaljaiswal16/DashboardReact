@@ -41,6 +41,8 @@ const Product_Upload = () => {
   const [rating, setrating] = useState(0);
   const [RegularPrice, setRegularPrice] = useState(0);
   const [Discount, setdiscount] = useState(2);
+  const [Color, setColor] = useState("");
+  const [tags, settags] = useState("");
 
   const handleChangeCategory = (e) => {
     setcategory(e.target.value);
@@ -54,6 +56,13 @@ const Product_Upload = () => {
 
   const handleChangediscount = (e) => {
     setdiscount(e.target.value);
+  };
+
+  const handleChangeColor = (e) => {
+    setColor(e.target.value);
+  };
+  const handleChangeTags = (e) => {
+    settags(e.target.value);
   };
 
   return (
@@ -110,16 +119,14 @@ const Product_Upload = () => {
                       <Select
                         labelId="demo-simple-select-filled-label"
                         id="demo-simple-select-filled"
-                        value={brand}
+                        value={category}
                         onChange={handleChangeCategory}
                         className="w-100"
                       >
-                        <MenuItem value="">
-                          <em>None</em>
-                        </MenuItem>
-                        <MenuItem value={10}>Men</MenuItem>
-                        <MenuItem value={20}>Women</MenuItem>
-                        <MenuItem value={30}>Kids</MenuItem>
+                        <MenuItem value="Ten"></MenuItem>
+                        <MenuItem value={1}>Ten</MenuItem>
+                        <MenuItem value={2}>Twenty</MenuItem>
+                        <MenuItem value={3}>Thirty</MenuItem>
                       </Select>
                     </div>
                   </div>
@@ -134,12 +141,12 @@ const Product_Upload = () => {
                         onChange={handleChangebrand}
                         className="w-100"
                       >
-                        <MenuItem value="">
-                          <em>None</em>
+                        <MenuItem value="ten">
+                          <em>Addidas</em>
                         </MenuItem>
-                        <MenuItem value={40}>Addidas</MenuItem>
-                        <MenuItem value={50}>Reebok</MenuItem>
-                        <MenuItem value={60}>Nike</MenuItem>
+                        <MenuItem value={10}>Addidas</MenuItem>
+                        <MenuItem value={20}>Reebok</MenuItem>
+                        <MenuItem value={30}>Nike</MenuItem>
                       </Select>
                     </div>
                   </div>
@@ -156,8 +163,8 @@ const Product_Upload = () => {
                         onChange={handleChangeRegular}
                         className="w-100"
                       >
-                        <MenuItem value="">
-                          <em>None</em>
+                        <MenuItem value="Ten">
+                          <em>Ten</em>
                         </MenuItem>
                         <MenuItem value={1}>Ten</MenuItem>
                         <MenuItem value={2}>Twenty</MenuItem>
@@ -176,9 +183,7 @@ const Product_Upload = () => {
                         onChange={handleChangediscount}
                         className="w-100"
                       >
-                        <MenuItem value="">
-                          <em>None</em>
-                        </MenuItem>
+                        <MenuItem value="ten"></MenuItem>
                         <MenuItem value={10}>Ten</MenuItem>
                         <MenuItem value={20}>Twenty</MenuItem>
                         <MenuItem value={30}>Thirty</MenuItem>
@@ -190,37 +195,31 @@ const Product_Upload = () => {
                 <div className="row">
                   <div className="col">
                     <div className="form-group">
-                      <h6>REGULAR PRICE</h6>
+                      <h6>COLOR</h6>
                       <Select
                         labelId="demo-simple-select-filled-label"
                         id="demo-simple-select-filled"
-                        value={category}
-                        onChange={handleChangeCategory}
+                        value={Color}
+                        onChange={handleChangeColor}
                         className="w-100"
                       >
-                        <MenuItem value="">
-                          <em>None</em>
-                        </MenuItem>
-                        <MenuItem value={10}>Ten</MenuItem>
-                        <MenuItem value={20}>Twenty</MenuItem>
-                        <MenuItem value={30}>Thirty</MenuItem>
+                        <MenuItem value={10}>RED</MenuItem>
+                        <MenuItem value={20}>BLUE</MenuItem>
+                        <MenuItem value={30}>GREEN</MenuItem>
                       </Select>
                     </div>
                   </div>
 
                   <div className="col">
                     <div className="form-group">
-                      <h6>DISCOUNT PRICE</h6>
+                      <h6>TAGS</h6>
                       <Select
                         labelId="demo-simple-select-filled-label"
                         id="demo-simple-select-filled"
-                        value={category}
-                        onChange={handleChangeCategory}
+                        value={tags}
+                        onChange={handleChangeTags}
                         className="w-100"
                       >
-                        <MenuItem value="">
-                          <em>None</em>
-                        </MenuItem>
                         <MenuItem value={10}>Ten</MenuItem>
                         <MenuItem value={20}>Twenty</MenuItem>
                         <MenuItem value={30}>Thirty</MenuItem>

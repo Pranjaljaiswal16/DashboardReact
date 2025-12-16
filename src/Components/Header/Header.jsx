@@ -300,27 +300,32 @@ const Header = () => {
                       anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
                     >
                       {/* <Divider /> */}
+                      <Link to={"/signup"}>
+                        <MenuItem onClick={handleClosemyAccount}>
+                          <ListItemIcon>
+                            <PersonAdd fontSize="medium" />
+                          </ListItemIcon>
+                          SignUp User
+                        </MenuItem>
+                      </Link>
 
-                      <MenuItem onClick={handleClosemyAccount}>
-                        <ListItemIcon>
-                          <PersonAdd fontSize="small" />
-                        </ListItemIcon>
-                        My Account
-                      </MenuItem>
+                      <Link to={"/login"}>
+                        <MenuItem onClick={handleClosemyAccount}>
+                          <ListItemIcon>
+                            <IoShieldCheckmarkSharp fontSize="medium" />
+                          </ListItemIcon>
+                          LogIn User
+                        </MenuItem>
+                      </Link>
 
-                      <MenuItem onClick={handleClosemyAccount}>
-                        <ListItemIcon>
-                          <IoShieldCheckmarkSharp fontSize={16} />
-                        </ListItemIcon>
-                        Reset Password
-                      </MenuItem>
-
-                      <MenuItem onClick={handleClosemyAccount}>
-                        <ListItemIcon>
-                          <Logout fontSize="small" />
-                        </ListItemIcon>
-                        Logout
-                      </MenuItem>
+                      <Link>
+                        <MenuItem onClick={handleClosemyAccount}>
+                          <ListItemIcon>
+                            <Logout fontSize="medium" />
+                          </ListItemIcon>
+                          Logout User
+                        </MenuItem>
+                      </Link>
                     </Menu>
                   </div>
                 </>

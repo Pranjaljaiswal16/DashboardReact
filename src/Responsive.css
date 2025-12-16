@@ -293,4 +293,8 @@
   .loginSection {
     display: flex !important;
   }
+  .css-1uwp4ue-MuiBreadcrumbs-ol {
+    justify-content: start !important;
+    gap: 20px !important;
+  }
 }
