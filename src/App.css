@@ -11,15 +11,19 @@ body {
   width: 100%;
   height: 100vh;
 }
+
 body {
   font-family: "Open Sans", sans-serif !important;
   background: #c7c0c0;
   width: 100%;
   height: 100vh;
 }
+
+
 body.dark {
   background: #071739 !important;
 }
+
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -62,6 +66,7 @@ body.dark {
 .btn-rounded {
   border-radius: 30px !important;
 }
+
 .full {
   max-width: 100% !important;
   flex: 0 0 100% !important;
@@ -77,6 +82,7 @@ body.dark header {
 body.dark header button.rounded_circle {
   background: #12254e !important;
 }
+
 body.dark header button.rounded_circle svg {
   color: #fff;
 }
@@ -88,6 +94,7 @@ body.dark .searchbox {
 body.dark .searchbox input {
   color: #fff;
 }
+
 body.dark .searchbox input::placeholder,
 body.dark .searchbox svg {
   color: rgba(255, 255, 255, 0.7);
@@ -97,14 +104,14 @@ body.dark .MyAccount .userInfo * {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
-body.dark .MuiPaper-elevation li *,
+/* body.dark .MuiPaper-elevation li *,
 body.dark .MuiPaper-elevation li {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
 body.dark .dropdown_list li.MuiButtonBase-root {
   background: #12254e !important;
-}
+} */
 
 body.dark .dropdown_list .head h4 {
   color: rgba(255, 255, 255, 0.8);
@@ -118,12 +125,15 @@ body.dark .main .sideBarWrapper .sidebar ul li button {
   color: rgba(255, 255, 255, 0.8) !important;
   background: #112143 !important;
 }
+
 body.dark .main .sideBarWrapper .sidebar ul li button:hover {
   background: rgba(255, 255, 255, 0.1) !important;
 }
+
 body.dark .main .sideBarWrapper .sidebar ul li button.active {
   background: rgba(255, 255, 255, 0.1) !important;
 }
+
 body.dark .main .sideBarWrapper .sidebar ul .submenu::before {
   color: rgba(255, 255, 255, 0.2);
 }
@@ -131,6 +141,7 @@ body.dark .main .sideBarWrapper .sidebar ul .submenu::before {
 body.dark .main .sideBarWrapper .sidebar li a {
   color: rgba(255, 255, 255, 0.2) !important;
 }
+
 body.dark .main .sideBarWrapper .sidebar ul .submenu li a:hover {
   color: #0858f7 !important;
 }
@@ -143,9 +154,11 @@ body.dark .logoutWrapper .logOutBox {
 body.dark .productdetailSection .productinfo .row .col-sm-9 span {
   color: rgba(255, 255, 255, 0.9) !important;
 }
+
 body.dark .productdetailSection .productinfo .name {
   color: rgba(255, 255, 255, 0.9) !important;
 }
+
 body.dark .ratingsection .ratinggrow .col1,
 body.dark .ratingsection .ratinggrow .col2,
 body.dark .ratingsection .ratinggrow .col3 {
@@ -162,6 +175,7 @@ header {
   left: 0;
   z-index: 999;
   -webkit-backdrop-filter: blur(5px);
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 header img.logo {
@@ -207,9 +221,11 @@ header .part-2 {
 .searchbox input::placeholder {
   color: #292929;
 }
+
 .searchbox svg {
   color: #292929;
 }
+
 /*********************************/
 /**********Droup-down************/
 /*******************************/
@@ -218,6 +234,7 @@ header .part-2 {
   text-align: left;
   color: #000 !important;
 }
+
 .userImg {
   display: flex;
   justify-content: center;
@@ -229,6 +246,7 @@ header .part-2 {
   border-radius: 50%;
   padding: 3px;
 }
+
 .userImg.lg {
   width: 60px !important;
   height: 60px !important;
@@ -239,11 +257,13 @@ header .part-2 {
   width: 100%;
   height: 100%;
 }
+
 .userImg .rounded_circle img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
+
 .MyAccount .userInfo {
   padding-left: 15px;
   text-transform: capitalize;
@@ -265,11 +285,33 @@ header .part-2 {
 }
 
 #account-menu li {
-  font-size: 15px !important;
+  font-size: 14px !important;
   padding: 12px 15px !important;
-  color: #6b8eb0 !important;
 }
-body.dark #account-menu li {
+
+
+
+body.dark .css-kmumto-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+
+  border: 1px solid rgba(255, 255, 255, 0.7) !important;
+
+}
+
+body.dark .css-1iw3t7y-MuiFormControl-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+body.dark .css-nvfvvk-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-nvfvvk-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-nvfvvk-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input em {
+  color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+body.dark .css-1rfqz7c-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+body.dark .table td .info h6,
+body.dark .table td .info p {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
@@ -328,6 +370,7 @@ body.dark #account-menu li {
 .text-sky {
   color: #0858f7 !important;
 }
+
 /**********************************************/
 /*******************SIDEBAR*******************/
 /********************************************/
@@ -337,6 +380,7 @@ body.dark #account-menu li {
   flex: 0 0 20%;
   transition: all 0.3s ease-in-out;
 }
+
 .main .sideBarWrapper.toogle {
   width: 0%;
   flex: 0 0 0%;
@@ -364,6 +408,7 @@ body.dark #account-menu li {
 .main .sideBarWrapper.toogle .sidebar {
   left: -100%;
 }
+
 /**********************************************/
 /********************ScrollBar*****************/
 /**********************************************/
@@ -415,6 +460,7 @@ body.dark #account-menu li {
   height: 25px;
   margin-right: 8px;
 }
+
 .main .sideBarWrapper .sidebar ul li button .icon svg {
   font-size: 20px;
 }
@@ -432,13 +478,16 @@ body.dark #account-menu li {
   height: 25px;
   transition: all 0.3s ease-in;
 }
+
 /* Roatate Arrow button */
 .main .sideBarWrapper .sidebar ul li button.active .arrow {
   transform: rotate(90deg);
 }
+
 .main .sideBarWrapper .sidebar ul li button.active .icon svg {
   color: #0858f7 !important;
 }
+
 /* End */
 
 .main .sideBarWrapper .sidebar ul li button.active {
@@ -528,6 +577,7 @@ body.dark #account-menu li {
   overflow: hidden;
   position: relative;
 }
+
 .logoutWrapper .logOutBox::before {
   content: "";
   width: 70px;
@@ -565,6 +615,7 @@ body.dark #account-menu li {
   flex: 0 0 80%;
   transition: all 0.3s ease-in-out;
 }
+
 .main .content.toogle {
   width: 100%;
   flex: 0 0 100%;
@@ -595,12 +646,14 @@ body.dark #account-menu li {
   text-transform: capitalize !important;
   font-weight: 800;
 }
+
 .dashBoardWrapper .dashBoardBox .chart {
   opacity: 0.1;
   position: absolute;
   bottom: 5px;
   left: 5px;
 }
+
 .dashBoardWrapper .dashBoardBox .chart svg {
   font-size: 160px;
   color: #fff;
@@ -610,9 +663,10 @@ body.dark #account-menu li {
   position: relative;
   top: 15px;
 }
+
 .dashBoardWrapper .dashBoardBox .bottomElem .MuiButtonBase-root svg {
   margin-right: 10px !important;
-  color: #000 !important ;
+  color: #000 !important;
   font-size: 17px !important;
 }
 
@@ -626,6 +680,7 @@ body.dark #account-menu li {
   font-size: 20px;
   font-weight: 600;
 }
+
 .dashBoardWrapper .dashBoardBox .col1 span {
   font-size: 40px;
   font-weight: bold;
@@ -639,11 +694,9 @@ body.dark #account-menu li {
   width: 50px;
   height: 50px;
   border-radius: 5px;
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.3)
-  );
+  background-image: linear-gradient(to bottom right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3));
 }
 
 .dashBoardWrapper .dashBoardBox .icon svg {
@@ -662,6 +715,7 @@ body.dark #account-menu li {
   border-radius: 10px;
   padding: 25px;
 }
+
 .toggleIcon {
   /* font-size: 22px;
   color: rgba(0, 0, 0, 0.5);
@@ -683,10 +737,12 @@ body.dark #account-menu li {
   background-color: none !important;
   cursor: pointer;
 }
+
 .graphBox h4 {
   font-size: 16px;
   font-weight: 600;
 }
+
 .graphBox p {
   font-size: 13px;
   color: #fff;
@@ -705,6 +761,7 @@ body.dark #account-menu li {
   margin: 20px 0px;
   border-radius: 10px;
 }
+
 body.dark .card {
   background: #071739 !important;
 }
@@ -728,12 +785,15 @@ body.dark p,
 body.dark .css-1rfqz7c-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon {
   color: rgba(255, 255, 255, 0.8) !important;
 }
+
 body.dark .css-18p5xg2-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline {
   border-color: rgba(255, 255, 255, 0.3) !important;
 }
+
 body.dark .css-1rfqz7c-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon {
   color: rgba(255, 255, 255, 0.8) !important;
 }
+
 body.dark .css-azmgtl-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon {
   color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -762,18 +822,22 @@ body.dark .css-azmgtl-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon {
   font-size: 15px !important;
   border-color: rgba(255, 255, 255, 0.2);
 }
+
 .table tbody td {
   font-size: 15px !important;
   color: #403e57 !important;
   font-weight: 500 !important;
 }
+
 body.dark .table tbody td {
   color: rgba(255, 255, 255, 0.8) !important;
 }
+
 body.dark .table-bordered td,
 .table-bordered th {
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
+
 /*  */
 
 body.dark .css-1bug3cd-MuiButtonBase-root-MuiPaginationItem-root {
@@ -785,10 +849,20 @@ body.dark .css-1bug3cd-MuiButtonBase-root-MuiPaginationItem-root:hover {
   color: #fff !important;
 }
 
+*/ body.dark .MuiPaginationItem-root {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+body.dark .MuiPaginationItem-root:hover {
+  background-color: #0858f7 !important;
+  color: #fff !important;
+}
+
 table td .imgWrapper {
   width: 20%;
   flex: 0 0 20%;
 }
+
 .table td .info {
   width: 65%;
   flex: 0 0 65%;
@@ -802,6 +876,7 @@ table td .imgWrapper {
   font-weight: 500;
   margin-bottom: 0px;
 }
+
 .table tbody td .info p {
   font-size: 13px;
   line-height: 18px;
@@ -829,12 +904,15 @@ p {
 .table tbody .actions button svg {
   font-size: 20px !important;
 }
+
 .table tbody .actions button.secondary {
   background: rgba(203, 60, 231, 0.2) !important;
 }
+
 .table tbody .actions button.success {
   background: rgba(26, 159, 83, 0.2) !important;
 }
+
 .table tbody .actions button.error {
   background: rgba(241, 17, 51, 0.2) !important;
 }
@@ -852,11 +930,13 @@ table.v-align td {
 table.v-align td .productBox {
   width: 250px;
 }
+
 table.v-align td .productBox .imgWrapper .img {
   width: 30px;
   height: 30px;
   object-fit: cover;
 }
+
 table.v-align td .productBox .imgWrapper .img img {
   border-radius: 8px;
 }
@@ -865,14 +945,17 @@ table.v-align td .productBox .imgWrapper .img img {
   padding-bottom: 20px;
   align-items: center !important;
 }
+
 .TableFooter .pagination {
   margin-left: auto;
 }
+
 .TableFooter p {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 0px;
 }
+
 .table-responsive::-webkit-scrollbar-thumb {
   background: #ccc !important;
 }
@@ -894,6 +977,7 @@ body.dark .loginSection .loginBox {
   padding: 12px !important;
   border-radius: 14px !important;
 }
+
 body.dark .loginSection .loginBox .wrapper {
   background: #0c204c !important;
 }
@@ -932,6 +1016,7 @@ body.dark .loginSection .loginBox .wrapper {
   height: 45px;
   padding-left: 40px;
 }
+
 .loginSection .loginBox .wrapper .form-group.focus .icon svg {
   color: #0858f7 !important;
 }
@@ -946,6 +1031,7 @@ body.dark .loginSection .loginBox .wrapper {
   left: 15px;
   z-index: 100;
 }
+
 .loginSection .loginBox .wrapper .form-group .icon svg {
   color: #5e5d72 !important;
 }
@@ -956,24 +1042,29 @@ body.dark .loginSection .loginBox .wrapper {
   right: 7px;
   cursor: pointer;
 }
+
 .toggleShowPassword svg {
   color: #5e5d72 !important;
 }
+
 .loginSection .loginBox .wrapper .forgotpass-link {
   color: #5e5d72 !important;
   font-weight: 500;
   font-size: 14px !important;
 }
+
 .loginSection .loginBox .wrapper .forgotpass-link:hover {
   color: #1866ee !important;
   text-decoration: none;
 }
+
 .loginSection .loginBox .wrapper .or span.line {
   display: block;
   width: 35%;
   height: 1px;
   background: rgba(0, 0, 0, 0.2);
 }
+
 .loginSection .loginBox .wrapper .or span.txt {
   display: flex;
   align-items: center;
@@ -994,6 +1085,7 @@ body.dark .loginSection .loginBox .wrapper {
   text-transform: capitalize !important;
   font-weight: bold !important;
 }
+
 .link.color {
   color: #0858f7 !important;
   text-decoration: none;
@@ -1031,6 +1123,7 @@ body.dark .loginSection .loginBox .wrapper {
   font-weight: 900;
   line-height: 65px;
 }
+
 .signupSection .part1 p {
   font-size: 18px;
   font-weight: 500;
@@ -1042,6 +1135,7 @@ body.dark .loginSection .loginBox .wrapper {
 .sliderSmall .slick-slide {
   padding-right: 0px 10px;
 }
+
 .sliderSmall .item {
   overflow: hidden;
   border-radius: 12px !important;
@@ -1060,10 +1154,12 @@ h4 {
   overflow: hidden;
   border-radius: 10px !important;
 }
+
 .sliderBig {
   overflow: hidden !important;
   border-radius: 14px !important;
 }
+
 .sliderSmall .slick-current .item {
   border: 1px dashed #ccc !important;
 }
@@ -1071,6 +1167,7 @@ h4 {
 body.light .sliderBig .item {
   border: 2px dashed #ccc !important;
 }
+
 body.light .sliderSmall .item {
   border: 2px dashed #ccc !important;
   cursor: pointer !important;
@@ -1091,6 +1188,7 @@ body.light .sliderSmall .item {
 body.light .productdetailSection .productinfo .icon svg {
   color: #5e5d72 !important;
 }
+
 body.dark .productdetailSection .productinfo .icon svg {
   color: #fff !important;
 }
@@ -1102,6 +1200,7 @@ body.dark .productdetailSection .productinfo .icon svg {
   font-size: 15px;
   opacity: 0.8;
 }
+
 body.light .productdetailSection .productinfo .name {
   color: #5e5d72 !important;
 }
@@ -1115,6 +1214,7 @@ body.light .productdetailSection .productinfo .name {
   font-size: 15px;
   /* padding-left: 20px; */
 }
+
 .productdetailSection .productinfo .row .col-sm-9 {
   display: flex;
   justify-content: center;
@@ -1128,6 +1228,7 @@ body.light .productdetailSection .productinfo .name {
 .tags li {
   margin: 3px 5px !important;
 }
+
 .tags li span {
   display: flex;
   align-items: center;
@@ -1137,11 +1238,13 @@ body.light .productdetailSection .productinfo .name {
   font-size: 13px !important;
   padding: 5px 10px;
 }
+
 body.light .tags li span {
   background: #f0f0f0 !important;
   color: #000 !important;
   padding: 4px 10px !important;
 }
+
 body.light p {
   font-weight: 400 !important;
 }
@@ -1153,6 +1256,7 @@ h5 {
 .tags li span:first-child {
   /* padding-left: 0px !important; */
 }
+
 p {
   font-weight: 300;
   line-height: 25px;
@@ -1162,6 +1266,7 @@ p {
 .ratingsection {
   width: 500px;
 }
+
 .ratingsection .ratinggrow {
   width: 100%;
   margin-bottom: 15px !important;
@@ -1172,16 +1277,19 @@ p {
   flex: 0 0 10%;
   display: flex;
 }
+
 .ratingsection .ratinggrow .col2 {
   width: 50%;
   flex: 0 0 50%;
 }
+
 .ratingsection .ratinggrow .col3 {
   width: 25%;
   flex: 0 0 25%;
   display: flex;
   padding-left: 20px !important;
 }
+
 .ratingsection .ratinggrow .progress {
   height: 5px !important;
   background: #000 !important;
@@ -1196,6 +1304,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 body.light .reviewsection .ReviewRow {
   background: #f1eeee !important;
 }
@@ -1209,6 +1318,7 @@ body.light .reviewsection .ReviewRow {
   /* border: 2px solid black; */
   margin: 15px 0px;
 }
+
 .userInfo h6 {
   margin-bottom: 0px;
 }
@@ -1221,6 +1331,7 @@ body.light .reviewsection .ReviewRow {
 .reviewsection .ReviewRow p {
   padding-left: 20px;
 }
+
 .reviewsection .ReviewRow .btn-big {
   font-size: 15px !important;
 }
@@ -1263,6 +1374,7 @@ body.light .reviewForm textarea ::-webkit-input-placeholder {
 .form .form-group h5 {
   margin-bottom: 10px;
 }
+
 .form .form-group h6 {
   font-size: 15px;
 }
@@ -1278,6 +1390,7 @@ body.light .reviewForm textarea ::-webkit-input-placeholder {
   border-radius: 5px !important;
   font-size: 14px;
 }
+
 .form .form-group textarea {
   height: 120px !important;
   padding-top: 15px;
@@ -1290,9 +1403,9 @@ body.dark .form .form-group textarea {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body.dark .css-1toxriw-MuiList-root-MuiMenu-list {
+/* body.dark .css-1toxriw-MuiList-root-MuiMenu-list {
   background: #2b3c5f !important;
-}
+} */
 
 /* body.dark .css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
   background: #2b3c5f !important;
@@ -1300,16 +1413,16 @@ body.dark .css-1toxriw-MuiList-root-MuiMenu-list {
   border-radius: 10px !important;
 } */
 
-body.light .css-1ckov0h-MuiSvgIcon-root {
+/* body.light .css-1ckov0h-MuiSvgIcon-root {
   font-size: 28px !important;
-}
-
+} */
+/* 
 body.dark .css-1ckov0h-MuiSvgIcon-root {
   color: rgba(255, 255, 255, 0.7) !important;
   font-size: 28px !important;
-}
+} */
 
-body.dark .css-ekwtfw-MuiChip-root {
+/* body.dark .css-ekwtfw-MuiChip-root {
   padding: 18px 10px;
   background: #2b3c5f !important;
   color: #fff !important;
@@ -1323,7 +1436,7 @@ body.dark .css-jhr02i-MuiBreadcrumbs-separator {
 
 body.dark .css-ekwtfw-MuiChip-root .MuiChip-icon {
   color: #fff !important;
-}
+} */
 
 .dashBoardWrapper.products {
   flex-wrap: nowrap !important;
@@ -1336,4 +1449,54 @@ body.dark .css-ekwtfw-MuiChip-root .MuiChip-icon {
 
 .bottomElem .css-1uent87-MuiButtonBase-root-MuiButton-root {
   background-color: unset !important;
+}
+
+body.dark .TableFooter p {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+body.dark .css-8uzxat-MuiSvgIcon-root-MuiPaginationItem-icon {
+  color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+body.dark .css-180i40p-MuiButtonBase-root-MuiPaginationItem-root {
+
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+body.dark .productdetailSection h5,
+body.dark .productdetailSection p {
+  color: white !important;
+}
+
+body.dark .reviewsection .ReviewRow .userInfo .info h6,
+body.dark .reviewsection .ReviewRow .userInfo .info span {
+  color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+body.dark .productdetailSection h6 {
+  color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+.css-uqrggz-MuiChip-root {
+  padding: 16px 8px !important;
+  cursor: pointer !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+body.dark .main .sideBarWrapper .sidebar ul.submenu li a {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.myAccountWrapper .css-1uent87-MuiButtonBase-root-MuiButton-root {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+
+}
+
+.css-1uent87-MuiButtonBase-root-MuiButton-root {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+
 }

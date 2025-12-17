@@ -113,7 +113,7 @@ const Product_Details = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="sliderWrapper pt-3 pb-3 pl-4 pr-4">
-                <h6 className="mb-4 text-center">Product Gallery</h6>
+                <h2 className="mb-4 text-center">Product Gallery</h2>
                 <Slider
                   {...productsSlider}
                   className="sliderBig mb-3"
@@ -202,11 +202,11 @@ const Product_Details = () => {
 
             <div className="col-md-7">
               <div className="pt-3 pb-3 pl-4 pr-4">
-                <h6 className="mb-4">Product Details</h6>
+                <h4 className="mb-4">Product Details</h4>
 
-                <h3>
+                <h5>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h3>
+                </h5>
 
                 <div className="productinfo mt-4">
                   <div className="row mb-2">

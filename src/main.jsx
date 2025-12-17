@@ -12,20 +12,25 @@
 //     </BrowserRouter>
 //   </ThemeProvider>
 // );
-
-import React from "react";
+import React, { useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import { ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider, CssBaseline } from "@mui/material";
 import { BrowserRouter } from "react-router-dom";
 
-import App from "./App.jsx";
-import { lightTheme, darkTheme } from "./theme.jsx";
+import App from "./App";
+import { getTheme } from "./theme";
 
 function Root() {
-  const isDarkMode = false; // 👈 abhi false rakho (light mode)
+  const isDarkMode = false; // abhi test ke liye
+
+  useEffect(() => {
+    document.body.classList.remove("dark", "light");
+    document.body.classList.add(isDarkMode ? "dark" : "light");
+  }, [isDarkMode]);
 
   return (
-    <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={getTheme(isDarkMode ? "dark" : "light")}>
+      <CssBaseline />
       <BrowserRouter basename="/DashboardReact">
         <App />
       </BrowserRouter>
