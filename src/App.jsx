@@ -16,6 +16,7 @@ const App = () => {
   const [isHideSideBarAndHeader, setisHideSideBarAndHeader] = useState(false);
   const [ThemeMode, setThemeMode] = useState(true);
   const [isOpneNav, setisOpneNav] = useState(false);
+  const [isDarkMode, setisDarkMode] = useState(true);
 
   useEffect(() => {
     if (ThemeMode === true) {
@@ -50,6 +51,8 @@ const App = () => {
     OpneNav,
     isOpneNav,
     setisOpneNav,
+    isDarkMode,
+    setisDarkMode,
   };
 
   // useEffect(() => {
