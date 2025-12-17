@@ -187,7 +187,7 @@ header button.rounded_circle {
   min-width: 40px !important;
   width: 40px !important;
   height: 40px !important;
-  background: #f0f5ff !important;
+  background: #cfd9ec !important;
   /* color: #292929 !important; */
   border-radius: 50% !important;
   transition: all 300ms ease-in;
@@ -1481,7 +1481,7 @@ body.dark .productdetailSection h6 {
 
 }
 
-.css-uqrggz-MuiChip-root {
+.MuiChip-root {
   padding: 16px 8px !important;
   cursor: pointer !important;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
@@ -1491,12 +1491,12 @@ body.dark .main .sideBarWrapper .sidebar ul.submenu li a {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
-.myAccountWrapper .css-1uent87-MuiButtonBase-root-MuiButton-root {
+/* .myAccountWrapper .MuiButton-root {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
 
-}
+} */
 
-.css-1uent87-MuiButtonBase-root-MuiButton-root {
+/* .MuiButton-root {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
 
-}
+} */
